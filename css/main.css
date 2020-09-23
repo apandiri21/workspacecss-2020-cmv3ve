@@ -85,9 +85,79 @@ h1 {
 /** 03 Position, Size, layout **/
 
 
+div,
+article,
+section,
+header,
+footer, 
+nav, 
+figure,
+li {
+  position: relative;
+}
+
+aside.sidebar {
+  position: absolute;
+  top: 7%;
+  right: 0;
+  width: 35%;
+}
+
+section.intro {
+  width: 54%;
+  padding: 8%;
+}
+
+section.intro div.preamble {
+  margin-left: -30%;
+  padding: 9% 6% 3% 55%;
+}
+
+div.page-wrapper {
+  padding: 5%;
+  z-index: 2;
+}
+
+div.extra1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 500px;
+  background-color: hsla(190, 51%, 65%, 0.5);
+  z-index: 1;
+}
+
+div.explanation {
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+
+div.participation {
+  margin-left: 50%;
+  width: 53%;
+  padding: 7%;
+}
+
+div.benefits {
+  float: left;
+  width: 38%;
+  padding: 6%;
+}
+
 /** 04  Other decoration -- background Links **/ 
+footer {
+  clear: both;
+  color: #fff;
+  padding: 1em 5%;
+  width: 57%;
+  margin: 10em auto;
+}
 
-
+div.summary {
+  visibility: hidden;
+}
 
 /**	05	Media  **/
 header>h1{
