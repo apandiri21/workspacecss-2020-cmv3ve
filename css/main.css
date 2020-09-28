@@ -159,6 +159,61 @@ div.summary {
   visibility: hidden;
 }
 
+/** other decoration **/
+
+/* nav bar on the top */
+#zen-resources {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blanchedalmond;
+}
+
+/* hide the n3 inside of zen resources */
+#zen-resources h3{
+  display: none;
+}
+
+#zen-resources ul li{
+  display: inline-block;
+  padding: 2%;
+  width: 200px;
+  background-color: hsla(234, 35%, 89%, 0.9);
+}
+
+#zen-resources a {
+  border: 0px;
+}
+
+p:active {
+  border: 5px solid brown;
+}
+
+p {
+  visibility: visible;
+}
+
+h3:active -p{
+  visibility: hidden;
+}
+
+li:first-of-type {
+  color: blueviolet;
+}
+
+p::first-letter {
+  font-size: 300%;
+}
+
+p:nth-child(3n+1) {
+  background-color: yellowgreen;
+}
+
+p:nth-child(3n+1) {
+  background-color: hsla(0, 100%, 63%, 0.9);
+}
+
 /**	05	Media  **/
 header>h1{
   background-image: url(../img/zengarden.gif);
